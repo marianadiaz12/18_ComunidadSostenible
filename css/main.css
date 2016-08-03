@@ -1,0 +1,130 @@
+.logo{
+	height: 90px;
+	width: 90px;
+}
+
+.menu{
+	display: inline-block;
+	padding: 15px;
+}
+
+.mencol{
+	color: gray;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.img{
+	height: 500px;
+	width: 1440px;
+}
+
+.fondo{
+	background-color: #E2E2E2; 
+}
+
+.semilla{
+	background-image: url("../img/semilla.jpg");
+	background-position: center;
+	padding: 150px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.parra{
+	padding: 50px 200px;
+}
+
+.fon{
+	margin:100px;
+}
+
+.metodo{
+	background-image: url("../img/metodo.jpg");
+	padding: 200px;
+	background-size: cover;
+	width: 618px;
+}
+
+.fondo2{
+	background-image: url("../img/fondo.jpg");
+	padding: 44px;
+}
+
+.color{
+	color: white;
+}
+
+.fondo3{
+	background-color: #6BA22D;
+	padding: 50px;
+}
+
+.tami{
+	height: 300px;
+	width: 500px;
+	margin-left: 50px;
+}
+
+.margi{
+	margin-bottom:50px;
+	margin-top: 50px;
+}
+
+.fondo4{
+	background-image: url("../img/fondo2.jpg");
+}
+
+.cir{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	margin:50px; 
+}
+
+.icon{
+	height: 30px;
+	width: 30px;
+	margin-top: 10%;
+}
+
+.text{
+	font-size: 15px;
+	color: gray;
+}
+.fondo5{
+	background-color: gray;
+	padding: 60px;
+}
+
+.redes{
+	height: 30px;
+	width: 30px;
+}
+
+.borde{
+	border: 1px solid #E2E2DF;
+}
+
+.red{
+	padding: 30px;
+}
+
+.sl{
+	height:200px; 
+	width: 300px;
+}
+
+.slip{
+	position:relative;
+	top:150px;
+}
+
+.foot{
+	padding: 50px;
+	background-color: #EBEBE7;
+}
+
+.enla{
+	text-decoration: none;
+}
