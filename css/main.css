@@ -1,130 +1,106 @@
 .logo{
-	height: 90px;
-	width: 90px;
+	width:40%;
 }
-
-.menu{
-	display: inline-block;
-	padding: 15px;
-}
-
-.mencol{
-	color: gray;
-	text-decoration: none;
-	margin-left: 10px;
-}
-
-.img{
-	height: 500px;
-	width: 1440px;
-}
-
-.fondo{
-	background-color: #E2E2E2; 
-}
-
 .semilla{
 	background-image: url("../img/semilla.jpg");
-	background-position: center;
-	padding: 150px;
-	background-size: cover;
-	background-repeat: no-repeat;
+	padding: 13%;
 }
-
-.parra{
-	padding: 50px 200px;
+.parrafo1{
+	margin: 5% 20%;
 }
-
-.fon{
-	margin:100px;
-}
-
 .metodo{
 	background-image: url("../img/metodo.jpg");
-	padding: 200px;
-	background-size: cover;
-	width: 618px;
+	padding: 160px;
 }
-
-.fondo2{
+.fondo{
 	background-image: url("../img/fondo.jpg");
-	padding: 44px;
+	padding: 69px;
 }
-
-.color{
-	color: white;
+/*Sin padding para que el backgroud ocupe toda la pantalla*/
+.sinpdg{
+	padding: 0% !important; 
 }
-
-.fondo3{
-	background-color: #6BA22D;
-	padding: 50px;
+.text-serv , .subtitulos{
+	font-weight: bolder;
 }
-
-.tami{
-	height: 300px;
-	width: 500px;
-	margin-left: 50px;
+.blue{
+	background-color: blue;
 }
-
-.margi{
-	margin-bottom:50px;
-	margin-top: 50px;
+.proyectos{
+	padding: 0% !important;
 }
-
-.fondo4{
+.nomDist{
+	font-size: 1.5em;
+}
+.redes-sociales{
+	width: 2em;
+	height: 2em;
+	margin: 6% 1%;
+}
+.fondo2{
 	background-image: url("../img/fondo2.jpg");
 }
-
-.cir{
-	border-radius: 50%;
-	height: 200px;
-	width: 200px;
-	margin:50px; 
-}
-
-.icon{
-	height: 30px;
-	width: 30px;
-	margin-top: 10%;
-}
-
-.text{
-	font-size: 15px;
-	color: gray;
-}
-.fondo5{
-	background-color: gray;
-	padding: 60px;
-}
-
-.redes{
-	height: 30px;
-	width: 30px;
-}
-
 .borde{
-	border: 1px solid #E2E2DF;
+	border: 1px white solid;
 }
-
-.red{
-	padding: 30px;
+.icon-siguenos{
+	width: 2em;
+	height: 2em;
+	margin: 40% 0% 5% 70%;
 }
-
-.sl{
-	height:200px; 
-	width: 300px;
+.text-footer{
+	font-size: 0.9em;
+	margin: 0%;
 }
-
-.slip{
-	position:relative;
-	top:150px;
+@media screen and (max-width: 767px) {
+	.logo{
+		width: 20%;
+	}
+	.parrafo1{
+		margin: 5% 10%;
+	}
+	p{
+		font-size: 0.8em;
+	}
+	.subtitulos{
+		font-size: 1.5em;
+	}
+	.iconos{
+		width: 55%;
+		height: 55%;
+	}
+	.fondo{
+		padding: 10%;
+	}
+	.icon-servicios{
+		width: 35%;
+		height: 35%;
+	}
+	.text-serv{
+		font-size: 1em;
+	}
+	.nomDist{
+		font-size: 1em;
+	}
+	.fotoequipo{
+		width: 50%;
+		height: 50%;
+	}
+	.text-siguenos{
+		font-size: 0.9em;
+	}
+	.icon-siguenos{
+	width: 1.5em;
+	height: 1.5em;
+	margin: 40% 0% 5% 70%;
+	}
+	.text-footer{
+	font-size: 0.7em;
+	margin: 0%;
 }
-
-.foot{
-	padding: 50px;
-	background-color: #EBEBE7;
 }
-
-.enla{
-	text-decoration: none;
+@media screen and (min-width: 768px) and (max-width: 940px){
+	.logo{
+		width: 20%;
+	}
 }
